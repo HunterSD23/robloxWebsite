@@ -1,0 +1,128 @@
+/* CSS Document */
+
+/*
+Author: Hunter Dettmer
+Date Created: 02/06/2023
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #170C0A;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 3px solid;
+}
+
+header a {
+	text-decoration: none;
+	color: #F8F9F1;
+	text-align: center;
+	padding: 5%;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+nav {
+	text-align: center;
+	background-color: #840B10;
+}
+
+nav li {
+	padding: 1%;
+	font-size: 1em;
+	
+}
+
+nav li:last-child {
+	border-bottom: 3px solid #0D0D0D;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #F8F9F1;
+	
+}
+
+nav li a:hover {
+	border: 2px solid #000;
+	border-width: 2.5%;
+	background-color: #F8F9F1;
+	color: #840B10;
+}
+
+#hero-index {
+	width: 30%;
+	padding-left: 35%;
+}
+
+#hero-studio {
+	width: 30%;
+	padding-left: 35%;
+}
+
+#hero-currency {
+	width: 25%;
+	padding-left: 38%;
+}
+
+#hero-events {
+	width: 30%;
+	padding-left: 35%;
+}
+
+#hero-news {
+	width: 20%;
+	padding-left: 40%;
+}
+
+main {
+	padding: 2.5%;
+	background-color: #D97D0D;
+	text-align: center;
+}
+
+main p {
+	font-size: 1.25em;
+	padding: 0% 25%;
+	text-align: left;
+	color: #FDFF3C;
+}
+
+main h3 {
+	font-size: 1.75em;
+}
+
+table {
+	padding-left: 45%;
+}
+
+.btn {
+	border-color: #FFB3E7;
+	color: #D90044;
+}
+
+footer {
+	color: #F8F9F1;
+	text-align: left;
+	padding-left: 2.5%;
+	padding-top: 1%
+}
